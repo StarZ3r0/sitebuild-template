@@ -1,0 +1,27 @@
+{
+  "name": "sitebuild-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "eslint": "eslint . --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarZ3r0/sitebuild-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarZ3r0/sitebuild-template/issues"
+  },
+  "homepage": "https://github.com/StarZ3r0/sitebuild-template#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "stylelint": "^14.6.0",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}
